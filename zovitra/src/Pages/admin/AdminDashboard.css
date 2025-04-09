@@ -1,0 +1,78 @@
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(60, 196, 36);
+  padding: 10px 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.website-name {
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.profile-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.profile-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  right: 0;
+  top: 50px;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  width: 200px;  /* Increased width */
+  padding: 10px;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  word-wrap: break-word; /* Allow wrapping */
+  overflow-wrap: break-word;
+  white-space: normal; /* Ensure long text wraps */
+}
+
+.dropdown-item {
+  padding: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  word-wrap: break-word;  /* Allow wrapping */
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+.dropdown-item:hover {
+  background: rgb(238, 238, 238);
+}
+
+
+.logout {
+  color: red;
+  font-weight: bold;
+}

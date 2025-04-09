@@ -1,0 +1,47 @@
+/* DestinationDetail.css */
+.destination-detail {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+  }
+  .hero-section {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(34, 19, 173);
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    padding: 20px;
+  }
+  .info-card {
+    background: #14a7af;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .info-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Mobile Responsive */
+  @media (max-width: 768px) {
+    .content {
+      grid-template-columns: 1fr;
+    }
+  }
+  
